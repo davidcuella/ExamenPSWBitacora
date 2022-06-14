@@ -1,0 +1,62 @@
+
+/* 
+    Created on : 23/04/2022, 08:44:46 PM
+    Author     : hp
+*/
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.Formulario{
+    margin: 20px 30%;
+    color:black;
+}
+
+.Login{
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+
+    /*colores de fondo*/
+    background: rgba(219,128,149,1);
+    background: -moz-linear-gradient(left, rgba(219,128,149,1) 0%, rgba(206,80,109,1) 15%, rgba(169,45,74,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,128,149,1)), color-stop(15%, rgba(206,80,109,1)), color-stop(100%, rgba(169,45,74,1)));
+    background: -webkit-linear-gradient(left, rgba(219,128,149,1) 0%, rgba(206,80,109,1) 15%, rgba(169,45,74,1) 100%);
+    background: -o-linear-gradient(left, rgba(219,128,149,1) 0%, rgba(206,80,109,1) 15%, rgba(169,45,74,1) 100%);
+    background: -ms-linear-gradient(left, rgba(219,128,149,1) 0%, rgba(206,80,109,1) 15%, rgba(169,45,74,1) 100%);
+    background: linear-gradient(to right, rgba(219,128,149,1) 0%, rgba(206,80,109,1) 15%, rgba(169,45,74,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db8095', endColorstr='#a92d4a', GradientType=1 );
+}
+
+
+.btn{
+    margin: 0px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0px;
+    font-family: sans-serif;
+    background-color: white;
+    transition: all .5s;
+}
+
+
+.btn:hover{
+    transition: all .5s;
+    border-color: black;
+    transform: translate(0px, -10px);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 4px white;
+}
+
+.txt{
+    border-radius: 0px;
+    font-size: 20px;
+}
+
